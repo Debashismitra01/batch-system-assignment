@@ -15,10 +15,8 @@ function App() {
       <Features />
       <Testimonial />
       <Faq />
-      
       <Banner />
-      <Footer/>
-      
+      <Footer/> 
     </div>
   );
 }
