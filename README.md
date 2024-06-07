@@ -68,3 +68,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Reference
+
+Figma Link: https://www.figma.com/design/YI8OTeDd0RrmC5FRKLUtPO/App-Landing-Page-Finance-Bank-Money-(Community)?node-id=101-79&t=1YlznNt0wuz5mQ77-0
