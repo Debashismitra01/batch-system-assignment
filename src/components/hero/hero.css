@@ -1,0 +1,83 @@
+.hero{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: "Teachers", sans-serif;
+}
+.hero-left {
+    max-width: 500px;
+    padding-left: 6.25%;
+    margin-left: 10px;
+}
+.hero h1 {
+    font-size: 50px; 
+    margin-bottom: 0%;
+    font-family: "Russo One", sans-serif;
+    line-height: 60px;
+    padding-bottom: 0%;
+}
+.hero p{
+    font-weight: 500;
+    font-size: 16px;
+}
+.hero-action{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.getstarted{
+    background-color: black;
+    color:white;
+    display:flex;
+    gap:10px;
+    padding: 0px 21px 0px 20px;
+    border: 1px solid transparent;
+    cursor: default;
+    margin-right:5px ;
+}
+.getstarted img{
+    width: 20px;
+
+}
+.getstarted:hover{
+    gap: 15px;
+    margin-right: 0;
+    transition: 0.2s ease-in;
+}
+.watchvideo{
+    display:flex;
+    gap:10px;
+    padding: 0px 21px 0px 20px;
+    border: 1px solid transparent;
+    cursor: default;
+    margin-right:5px ;
+}
+.watchvideo:hover{
+    border: 1px solid black;
+    border-radius: 50px;
+    transition:0.8s ease-in-out;
+}
+.hero-right{
+    align-items: start;
+}
+.hero-left img{
+    max-width: 100%;
+}
+.hero-right img{
+    max-width: 100%;
+}
+@media only screen and (max-width: 980px)
+{
+    .hero{
+         flex-direction: column-reverse;
+    }
+    .hero-right img{
+        display: none;
+    }
+    .hero-action{
+        flex-direction: column;
+
+    }
+}

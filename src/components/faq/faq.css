@@ -1,0 +1,68 @@
+.faq{
+    padding: 0px 12.5% 0px 12.5%;
+}
+.faq-title p{
+    color:#FF5555;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    line-height: 0px;
+    font-family: "Teachers", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+.faq-title h1{
+    font-family: "Russo One", sans-serif;
+    font-size: 50px;
+}
+.faq-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.d1,.d4,.d5{
+    background-color: #FF5555;
+    color: white;
+}
+.d2,.d3, .d6{
+    background-color: white;
+    color: black;
+}
+.faq-container div{
+    padding: 0px 20px 10px 30px;
+    border-radius: 12px;
+}
+.d1:hover, .d4:hover, .d5:hover {
+    border: 1px solid white;
+    transform: scale(1.1); /* Changed scale to transform for better compatibility */
+    transition: 0.4s ease-in-out;
+}
+
+.d2:hover, .d3:hover, .d6:hover {
+    border: 1px solid #FF5555;
+    transform: scale(1.1); /* Changed scale to transform for better compatibility */
+    transition: 0.4s ease-in-out;
+}
+@media only screen and (max-width: 980px)
+{
+    .faq-container{
+        grid-template-columns: 1fr ;
+    }
+    .d1,.d3,.d5{
+        background-color: #FF5555;
+        color: white;
+    }
+    .d2,.d4, .d6{
+        background-color: white;
+        color: black;
+    }
+    .d1:hover, .d4:hover, .d5:hover {
+        border: 1px solid white;
+        transform: scale(1.1); /* Changed scale to transform for better compatibility */
+        transition: 0.4s ease-in-out;
+    }
+    
+    .d2:hover, .d3:hover, .d6:hover {
+        border: 1px solid #FF5555;
+        transform: scale(1.1); /* Changed scale to transform for better compatibility */
+        transition: 0.4s ease-in-out;
+    }
+}

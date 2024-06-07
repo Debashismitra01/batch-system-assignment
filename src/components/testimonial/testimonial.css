@@ -1,0 +1,60 @@
+.testimonial{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 12.5% 0px 12.5%;
+}
+.testimonial-title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+}
+.testimonial-title p{
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    line-height: 0%;
+    font-family: "Teachers", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+.testimonial-title h1{
+    font-family: "Russo One", sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+.testimonial-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0%;
+}
+.testimonial-left img{
+    max-width: 100%;
+}
+.testimonial-right{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+.testimonial-right h2{
+    font-family: "Russo One", sans-serif;
+    font-size: 30px;
+}
+.testimonial-right p{
+    font-family: "Teachers", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.testimonial-right h3{
+    font-family: "Teachers", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+@media only screen and (max-width: 980px){
+    .testimonial-section{
+        flex-direction: column;
+    }
+}

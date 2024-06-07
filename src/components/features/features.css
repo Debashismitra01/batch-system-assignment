@@ -1,0 +1,54 @@
+.title{
+    color:#FF5555;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    line-height: 0%;
+    font-family: "Teachers", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+.heading{
+    font-family: "Russo One", sans-serif;
+    font-size: 40px;
+}
+.semiheading{
+    display: flex;
+    font-family: "Russo One", sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+    gap:10px;
+    align-items: center;
+}
+
+.section{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Teachers", sans-serif;
+    padding: 0px 12.5% 0px 12.5%;
+}
+.section img{
+    max-width: 100%;
+}
+.featuremenu{
+    list-style: none;
+    margin-left: none;
+    padding-left: 0%;
+}
+.listhead{
+    display: flex;
+    font-family: "Russo One", sans-serif;
+    font-size: 18px;
+    gap:10px;
+    align-items: center;
+    margin-top: 20px;
+}
+@media only screen and (max-width: 980px){
+    .normal{
+        flex-direction: column;
+    }
+    .reverse{
+        flex-direction: column-reverse;
+    }
+}
