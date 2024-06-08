@@ -1,6 +1,3 @@
-/* navbar.css */
-
-/* Basic Navbar Styling */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -49,10 +46,10 @@
 }
 
 .download:hover {
-    color: black;
-    border: 1px solid black;
+    color: white;
+    border: 1px solid white;
     padding: 10px 20px 10px 20px;
-    background-color: white;
+    background-color: #FF8888;
     transition: ease-in-out;
 }
 
