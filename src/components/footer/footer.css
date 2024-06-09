@@ -62,7 +62,7 @@
     color:#ff5555
 }
 @media only screen and (max-width: 980px){
-    .footercontainer{
+    .uppercontainer{
         flex-direction: column;
     }
 }
