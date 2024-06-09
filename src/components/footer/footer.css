@@ -58,8 +58,11 @@
     padding: 8px 18px 8px 16px;
     border: solid 1px black;
 }
+.highlight:hover{
+    color:#ff5555
+}
 @media only screen and (max-width: 980px){
-    .uppercontainer{
+    .footercontainer{
         flex-direction: column;
     }
 }
