@@ -19,26 +19,26 @@ function Footer() {
             <div className="footercontainer">
                 <ul>
                 <li><h1>Links</h1></li>
-                    <li>Home</li>
-                    <li>About Us</li>
-                    <li>Booking</li>
-                    <li>Blog</li>
+                    <li className="highlight">Home</li>
+                    <li className="highlight">About Us</li>
+                    <li className="highlight">Booking</li>
+                    <li className="highlight">Blog</li>
                 </ul>
                 </div>
             <div className="footercontainer">
                 <ul>
                 <li><h1>Legal</h1></li>
-                    <li>Terms Of Use</li>
-                    <li>Privacy Policy</li>
-                    <li>Cookie Policy</li>
+                    <li className="highlight">Terms Of Use</li>
+                    <li className="highlight">Privacy Policy</li>
+                    <li className="highlight">Cookie Policy</li>
                 </ul>
                 </div>
             <div className="footercontainer">
                 <ul>
                 <li><h1>Product</h1></li>
-                    <li>Take Tour</li>
-                    <li>Live Chat</li>
-                    <li>Reviews</li>
+                    <li className="highlight">Take Tour</li>
+                    <li className="highlight">Live Chat</li>
+                    <li className="highlight">Reviews</li>
                 </ul>
                 </div>
             <div className="footercontainer">
