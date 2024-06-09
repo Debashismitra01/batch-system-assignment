@@ -35,6 +35,21 @@
     padding: 0px 21px 0px 20px;
     border: 1px solid transparent;
     cursor: default;
+    transition:0.4s ease-in-out;
+}
+.downloadapp:hover {
+    width: 200px;
+    align-items: center;
+    display: flex;
+    background-color: #FF5555;
+    color: black;
+    font-size: 20px;
+    margin: 0% 10% 0% 2%;
+    padding: 0px 21px 0px 20px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    transition:0.4s ease-in-out;
+    cursor: default;
 }
 .downloadapp p{
     font-family: "Teachers", sans-serif;
@@ -42,5 +57,4 @@
     font-weight: 400;
     max-width: 400px;
     color: black;
-    
 }
